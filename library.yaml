@@ -11,6 +11,11 @@ default_dirs:
 
 library:
   skills:
+    - name: sandbox-exe-dev
+      description: "Operate exe.dev persistent VMs via SSH/HTTPS for safe code execution and file operations. Use when the user needs persistent dev environments, SSH-accessible Linux VMs, or web-exposed sandboxes. Keywords: exe.dev, persistent VM, SSH, code execution, sandbox, exedev."
+      source: https://github.com/disler/inkwell-agent-sandboxes-and-software-factory/blob/main/.claude/skills/sandbox-exe-dev/SKILL.md
+      # self-contained (bundles exedev_cli/); /agent-sandboxes is an E2B cousin, not a hard dependency
+
     - name: sssf
       description: "Super Simple Software Factory — deploy and operate repeatable agents+code workflows (ADWs) in any codebase. Use when the user says /sssf install, wants to create/run/update an ADW, manage the agent roster in sssf.config.yaml, or observe running agent workflows. Keywords - sssf, software factory, ADW, AI developer workflow, agent pipeline, install factory."
       source: https://github.com/yhuangsh/super-simple-software-factory/blob/main/.claude/skills/sssf/SKILL.md
