@@ -1,13 +1,13 @@
 default_dirs:
   skills:
-    - default: .claude/skills/
-    - global: ~/.claude/skills/
+    - default: .pi/skills/
+    - global: ~/.pi/agent/skills/
   agents:
-    - default: .claude/agents/
-    - global: ~/.claude/agents/
+    - default: .pi/extensions/
+    - global: ~/.pi/agent/extensions/
   prompts:
-    - default: .claude/commands/
-    - global: ~/.claude/commands/
+    - default: .pi/prompts/
+    - global: ~/.pi/agent/prompts/
 
 library:
   skills: []
