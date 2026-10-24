@@ -13,6 +13,8 @@ library:
   skills:
     - name: sssf
       description: "Super Simple Software Factory — deploy and operate repeatable agents+code workflows (ADWs) in any codebase. Use when the user says /sssf install, wants to create/run/update an ADW, manage the agent roster in sssf.config.yaml, or observe running agent workflows. Keywords - sssf, software factory, ADW, AI developer workflow, agent pipeline, install factory."
-      source: https://github.com/disler/super-simple-software-factory/blob/main/.claude/skills/sssf/SKILL.md
+      source: https://github.com/yhuangsh/super-simple-software-factory/blob/main/.claude/skills/sssf/SKILL.md
+      # pinned to the fork (fix merged to main) until upstream PR disler/super-simple-software-factory#21 merges;
+      # after merge, either sync the fork or repoint to disler/super-simple-software-factory
   agents: []
   prompts: []
