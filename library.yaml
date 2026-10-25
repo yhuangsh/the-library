@@ -24,7 +24,8 @@ library:
 
     - name: sssf-sandbox-orchestrator
       description: "Drive the six-phase sandbox mount system from the host — mount throwaway exe.dev VMs, run the Super Simple Software Factory inside them, watch from outside, harvest the commits, tear down. Use when the user says mount a sandbox, run the factory in a sandbox, spin up N sandboxes, best-of-N, check on a run, harvest a run's commits, or tear down. Keywords - sandbox, mount, exe.dev VM, run id, fan out, best-of-N, harvest, bundle, teardown, reap."
-      source: https://github.com/disler/inkwell-agent-sandboxes-and-software-factory/blob/main/.claude/skills/sssf-sandbox-orchestrator/SKILL.md
+      # pinned to the fork: private-repo bundle fill, pass-managed CN provider keys, pi-based gate
+      source: https://github.com/yhuangsh/inkwell-agent-sandboxes-and-software-factory/blob/main/.claude/skills/sssf-sandbox-orchestrator/SKILL.md
       requires: [skill:sssf, skill:sandbox-exe-dev]
   agents: []
   prompts: []
